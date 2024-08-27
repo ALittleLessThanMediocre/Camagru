@@ -1,0 +1,27 @@
+/*GALLERY*/
+
+body {
+	margin: 50;
+}
+
+a {
+	text-decoration: none;
+}
+
+.gallery-container {
+	margin: 5vw;
+	font-size: 50;
+}
+
+.gallery-container .images {
+	flex: auto;
+	display: inline-block;
+	margin: 10px;
+}
+
+.gallery-container .images img {
+	width: 250px;
+	height: 200px;
+	border: solid 2px black;
+	margin: 2px;
+}
